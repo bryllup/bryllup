@@ -1,0 +1,27 @@
+{
+  "name": "home",
+  "repo": "bryllup/home",
+  "description": "Førstesiden",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/domify": "*",
+    "component/emitter": "*",
+    "component/view": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "authorized.html",
+    "unauthorized.html"
+  ],
+  "styles": [
+    "styles.css"
+  ],
+  "paths": [".."],
+  "local": ["countdown", "countdown-view"]
+}

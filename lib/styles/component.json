@@ -1,0 +1,16 @@
+{
+  "name": "styles",
+  "repo": "bryllup/styles",
+  "description": "Global styling",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "typefaces/montserrat": "*",
+    "ianstormtaylor/reset": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "styles.css"
+  ]
+}

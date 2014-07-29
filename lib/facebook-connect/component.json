@@ -1,0 +1,16 @@
+{
+  "name": "facebook-connect",
+  "repo": "bryllup/facebook-connect",
+  "description": "Connection to Facebook's API's",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "lancejpollard/facebook-script": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

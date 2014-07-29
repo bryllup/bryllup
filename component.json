@@ -1,0 +1,5 @@
+{
+  "name": "bryllup",
+  "paths": ["lib"],
+  "local": ["boot"]
+}

@@ -1,0 +1,30 @@
+/**
+ * Typographic scale.
+ */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Montserrat;
+  font-size: 1.6em;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+/**
+ * Theme.
+ */
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(223,222,225)), to(rgb(155,147,166)));
+  background: -webkit-linear-gradient(top, rgb(223,222,225), rgb(155,147,166));
+  background: linear-gradient(top, rgb(223,222,225), rgb(155,147,166));
+  background-attachment: fixed;
+  color: rgb(255,255,255);
+}

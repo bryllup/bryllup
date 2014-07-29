@@ -1,0 +1,21 @@
+{
+  "name": "boot",
+  "repo": "bryllup/boot",
+  "description": "Bootstrap",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "heavyk/format": "*",
+    "visionmedia/page.js": "*",
+    "timoxley/next-tick": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "environment.js"
+  ],
+  "paths": [".."],
+  "local": ["styles", "facebook-connect", "home"]
+}

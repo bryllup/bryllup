@@ -1,0 +1,19 @@
+{
+  "name": "countdown",
+  "repo": "bryllup/countdown",
+  "description": "Countdown",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/each": "*",
+    "component/emitter": "*",
+    "moment/moment": "*",
+    "yields/capitalize": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
