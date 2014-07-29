@@ -31,11 +31,8 @@ PKG:=component.json $(wildcard lib/**/component.json)
 all: $(OUT_DIR)
 
 $(OUT_DIR): lib/index.html node_modules components lib/boot/environment.js $(SRC)
-	component build --copy --use component-autoboot \
-		--out $@
-	handlebars package.json < $< \
-		| sed -e 's@%OUT_DIR%@$(OUT_DIR)@' \
-		> $@/$(<F)
+	component build --copy --use component-autoboot --out $@
+	handlebars package.json < $< > $@/$(<F)
 
 lib/boot/environment.js:
 	echo "module.exports = '$(ENV)';" > $@
