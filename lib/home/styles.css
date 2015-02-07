@@ -1,7 +1,136 @@
+
 .Home {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 100px;
   text-align: center;
+  padding: 2em;
+  height: 100%;
 }
+
+
+.Reprieve {
+  max-width: 30em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+  .reprieve {
+    font-size: smaller;
+  }
+
+.Timeline {
+  float: left;
+  left: 5em;
+  position: relative;
+  height: 100%;
+  width: 15em;
+}
+
+.Timeline time {
+  top: 3.3em;
+  font-size: .8em;
+  left: -6em;
+}
+
+.Timeline h1 {
+  font-size: 1.1em;
+}
+
+.Timeline .type {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.Timeline .event:hover .description {
+  opacity: 1;
+}
+
+.Timeline .description {
+  background-color: rgba(255,255,255,.2);
+  border-radius: 1em;
+  font-size: .8em;
+  opacity: 0;
+  padding: 1em;
+  position: absolute;
+  min-width: 16em;
+  text-align: left;
+  transition: opacity 1s ease;
+}
+
+.Timeline::before {
+  background: linear-gradient(bottom, rgba(255,255,255,1), rgba(255,255,255,0));
+  content: ' ';
+  display: block;
+  height: 3em;
+  position: absolute;
+  top: -1em;
+  width: 6px;
+}
+
+.Timeline::after {
+  background-color: rgb(255,255,255);
+  content: ' ';
+  display: block;
+  width: 6px;
+  position: absolute;
+  top: 14em;
+  bottom: -2em;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  outline: 0;
+  border-radius: 100%;
+  border: solid 2px rgb(255,255,255);
+  height: 1.3em;
+  position: relative;
+  width: 1.3em;
+}
+  input[type="radio"]::before {
+    background-color: rgb(255,255,255);
+    border-radius: 100%;
+    display: block;
+    content: ' ';
+    height: .75em;
+    width: .75em;
+    opacity: 0;
+    position: absolute;
+    left: .15em;
+    top: .15em;
+    transition: opacity 1s ease;
+  }
+  input[type="radio"]:hover::before {
+    opacity: .4;
+  }
+  input[type="radio"]:checked::before {
+    opacity: 1;
+  }
+
+form {
+  width: 100%;
+}
+form p {
+  display: inline-block;
+  margin: 2em;
+}
+
+.Hosts {
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.photo {
+  display: inline-block;
+  border-radius: 100%;
+  height: 64px;
+  width: 64px;
+  filter: grayscale(100%);
+  transition: all 1s ease;
+  transform: translateZ(0px);
+}
+.photo:hover {
+  filter: grayscale(0%);
+}
+

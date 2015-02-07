@@ -1,9 +1,9 @@
-<span class="Countdown">
-  Om
+<span class="Countdown" data-visible="milliseconds">
   <span data-visible="years">{years} år, </span>
   <span data-visible="months">{months} måned{months > 1 ? 'er':''}, </span>
   <span data-visible="days">{days} dag{days > 1 ? 'er':''}, </span>
   <span data-visible="hours">{hours} time{hours > 1 ? 'r':''}, </span>
-  <span data-visible="minutes">{minutes} minutt{minutes > 1 ? 'er':''} og </span>
-  <span data-visible="seconds">{seconds} sekund{seconds > 1 ? 'er':''}</span>
+  <span data-hidden="seconds">og</span>
+  <span data-visible="minutes">{minutes} minutt{minutes > 1 ? 'er':''}</span>
+  <span data-visible="seconds">og {seconds} sekund{seconds > 1 ? 'er':''}</span>
 </span>

@@ -1,0 +1,10 @@
+{
+  "name": "timeline",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "devDependencies": {
+    "duo": "0.8.3",
+    "duo-myth": "0.0.3"
+  }
+}

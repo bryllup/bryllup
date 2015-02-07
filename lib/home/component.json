@@ -5,9 +5,9 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "component/domify": "*",
-    "component/emitter": "*",
-    "component/view": "*"
+    "component/domify": "master",
+    "component/reactive": "master",
+    "bdo-labs/format": "master"
   },
   "development": {},
   "license": "MIT",
@@ -16,12 +16,9 @@
     "index.js"
   ],
   "templates": [
-    "authorized.html",
-    "unauthorized.html"
+    "template.html"
   ],
   "styles": [
     "styles.css"
-  ],
-  "paths": [".."],
-  "local": ["countdown", "countdown-view"]
+  ]
 }

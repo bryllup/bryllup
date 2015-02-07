@@ -1,7 +1,0 @@
-
-.Home {
-  box-sizing: border-box;
-  padding: 100px;
-  text-align: center;
-}
-

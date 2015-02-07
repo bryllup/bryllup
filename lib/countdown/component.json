@@ -5,15 +5,18 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "component/each": "*",
-    "component/emitter": "*",
-    "moment/moment": "*",
-    "yields/capitalize": "*"
+    "component/each": "master",
+    "component/emitter": "master",
+    "moment/moment": "master",
+    "yields/capitalize": "master"
   },
   "development": {},
   "license": "MIT",
   "main": "index.js",
   "scripts": [
     "index.js"
+  ],
+  "templates": [
+    "template.html"
   ]
 }

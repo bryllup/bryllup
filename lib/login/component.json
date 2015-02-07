@@ -1,12 +1,11 @@
 {
-  "name": "countdown-view",
-  "repo": "bryllup/countdown-view",
-  "description": "",
+  "name": "home",
+  "repo": "bryllup/home",
+  "description": "Førstesiden",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
     "component/domify": "master",
-    "component/view": "master"
     "component/reactive": "master"
   },
   "development": {},
@@ -15,8 +14,10 @@
   "scripts": [
     "index.js"
   ],
-  "styles": [
-    "style.css"
+  "templates": [
+    "template.html",
   ],
-  "templates": ["template.html"]
+  "styles": [
+    "styles.css"
+  ]
 }

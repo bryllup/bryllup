@@ -1,7 +1,7 @@
 {
   "name": "bryllup",
   "version": "0.0.01",
-  "description": "Cecilie + Henrik = sant",
+  "description": "vi.blir.gift",
   "repository": "git@github.com:bryllup/bryllup.git",
   "keywords": [
     "bryllup",
@@ -14,12 +14,15 @@
   ],
   "author": "Henrik Kjelsberg <hkjels@me.com>",
   "license": "MIT",
-  "bugs": { "url": "https://github.com/bryllup/bryllup/issues" },
+  "bugs": {
+    "url": "https://github.com/bryllup/bryllup/issues"
+  },
   "homepage": "https://vi.blir.gift/",
   "devDependencies": {
     "browser-sync": "^1.3.0",
-    "component": "^0.19.9",
-    "component-autoboot": "^0.1.0",
+    "duo": "^0.8.3",
+    "duo-myth": "^0.0.3",
+    "duo-serve": "^0.0.1",
     "handlebars-cmd": "^0.1.4",
     "myth": "^1.0.4"
   }

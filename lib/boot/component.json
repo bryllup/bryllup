@@ -5,9 +5,9 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "heavyk/format": "*",
-    "visionmedia/page.js": "*",
-    "timoxley/next-tick": "*"
+    "bdo-labs/format": "master",
+    "visionmedia/page.js": "master",
+    "timoxley/next-tick": "master"
   },
   "development": {},
   "license": "MIT",

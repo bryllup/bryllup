@@ -1,13 +1,13 @@
 {
-  "name": "countdown-view",
-  "repo": "bryllup/countdown-view",
-  "description": "",
+  "name": "facebook-login-view",
+  "repo": "bryllup/facebook-login-view",
+  "description": "Facebook login view",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
     "component/domify": "master",
-    "component/view": "master"
-    "component/reactive": "master"
+    "component/reactive": "master",
+    "driftyco/ionicons": "master"
   },
   "development": {},
   "license": "MIT",
@@ -15,8 +15,10 @@
   "scripts": [
     "index.js"
   ],
+  "templates": [
+    "template.html"
+  ],
   "styles": [
     "style.css"
-  ],
-  "templates": ["template.html"]
+  ]
 }

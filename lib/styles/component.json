@@ -5,8 +5,7 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "typefaces/montserrat": "*",
-    "ianstormtaylor/reset": "*"
+    "ianstormtaylor/reset": "master"
   },
   "development": {},
   "license": "MIT",

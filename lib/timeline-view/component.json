@@ -1,0 +1,29 @@
+{
+  "name": "timeline-view",
+  "repo": "bryllup/timeline-view",
+  "description": "Vertical timeline component",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "chjj/marked": "master",
+    "component/domify": "master",
+    "component/view": "master",
+    "driftyco/ionicons": "master",
+    "moment/moment": "master"
+  },
+  "development": {
+    "component/collection": "master",
+    "component/model": "master"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles": [
+    "timeline-view.css"
+  ]
+}

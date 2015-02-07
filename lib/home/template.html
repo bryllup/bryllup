@@ -1,0 +1,35 @@
+<main class="Home">
+  <ul data-replace="timeline"></ul>
+  <div class="Yay" data-visible="rsvp">
+    Vi sees om <span data-replace="countdown"></span>
+    til bryllup i Nidarosdomen.
+    Yay!
+  </div>
+  <div class="Reprieve" data-hide="rsvp">
+    Om <span data-replace="countdown"></span>
+    så er det bryllup i Nidarosdomen. Cecilie og Henrik skal gifte seg
+    og ønsker at du vil ta del i å feire den store dagen.
+    <br>
+    <br>
+    <span class="reprieve">Su. innen 2. Februar, 2015</span>
+    <form>
+      <fieldset>
+        <p>
+          <input on-click="attending" id="yes" type="radio" name="coming" value="true">
+          <br>
+          <label for="yes">Kommer</label>
+        </p>
+        <p>
+          <input on-click="decline" id="no" type="radio" name="coming" value="false">
+          <br>
+          <label for="no">Kommer ikke</label>
+        </p>
+      </fieldset>
+    </form>
+  </div>
+  <section class="Hosts">
+    <a href="mailto:{email}" rel="mail">
+      <img class="photo" src="{photo}" each="people" alt="{name}" title="{name}">
+    </a>
+  </section>
+</main>

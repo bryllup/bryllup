@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Timeline</title>
+    <link rel="stylesheet" href="../build/test.css">
+  </head>
+  <body>
+    <main>
+
+<h1 id="timeline">Timeline</h1>
+<p>A vertical timeline view. Simply pass it a collection of events and you&#39;ll
+retrieve a structurally styled timeline with icons from <a href="//ionicons.com">ionicons</a>.</p>
+<h2 id="api">API</h2>
+<p>First create some events. The <code>type</code>-attribute should be compatible with
+<code>ionicons</code> icon-naming and description should be in the <code>markdown</code>-syntax.</p>
+<pre><code class="lang-js">var event1 = new Event({
+  &#39;timestamp&#39;: new Date,
+  &#39;type&#39;: &#39;beer&#39;,
+  &#39;description&#39;: &#39;# party&#39;
+});
+var events = new Collection([event1]);
+</code></pre>
+<p>Then initialize your timeline:</p>
+<pre><code class="lang-js">var timeline = Timeline(events);
+document.body.appendChild(timeline.el);
+</code></pre>
+
+    </main>
+    <script src="../build/test.js"></script>
+  </body>
+</html>

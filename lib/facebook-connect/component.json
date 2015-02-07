@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "lancejpollard/facebook-script": "*"
+    "lancejpollard/facebook-script": "master"
   },
   "development": {},
   "license": "MIT",

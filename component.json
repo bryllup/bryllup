@@ -1,5 +1,9 @@
 {
   "name": "bryllup",
+  "description": "",
+  "author": "Henrik Kjelsberg <hkjels@me.com>",
+  "version": "0.0.1",
+  "repo": "bryllup/bryllup",
   "paths": ["lib"],
   "local": ["boot"]
 }

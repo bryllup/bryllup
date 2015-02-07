@@ -1,0 +1,15 @@
+
+.Login {
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+}
+
+@media screen and (max-width: 640px){
+  .Login {
+    margin-top: 40%;
+  }
+}

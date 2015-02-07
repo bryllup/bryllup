@@ -1,0 +1,67 @@
+
+@import "../timeline-view.css";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: rgb(50,50,50);
+  font-family: Helvetica neue, Helvetica;
+  font-size: 1.4em;
+  line-height: 1.6em;
+  padding-left: 20em;
+}
+
+main {
+  margin-left: auto;
+  margin-right: 5em;
+  padding-top: 5em;
+  max-width: 50em;
+}
+
+a {
+  color: inherit;
+}
+
+/**
+ * Theme for the timline.
+ */
+
+.Timeline {
+  border-color: rgb(208,208,208);
+  color: rgb(208,208,208);
+  position: absolute;
+  top: 100px;
+  left: 5em;
+}
+
+  .Timeline::before {
+    background: linear-gradient(top, rgba(208,208,208,0), rgba(208,208,208,1));
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: -70px;
+    left: 40px;
+    height: 100px;
+    width: 6px;
+  }
+
+.Timeline time,
+.Timeline .description,
+.Timeline .type {
+  transition: all 1s linear;
+  z-index: 2;
+}
+
+.Timeline li:hover {
+  color: rgb(100,100,100);
+}
+  .Timeline li:hover .type {
+    border-color: rgb(100,100,100);
+  }
+
+.Timeline h1 {
+  font-size: 1.2em;
+}
+
